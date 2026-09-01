@@ -11,22 +11,25 @@ Bases de datos relacional que permite la gestion de eventos.
 # **Primera seccion: Conceptos importantes y relevantes en la temática:**
      
 - **Jerarquía de Eventos y Sesiones:** Un evento no es un ente aislado. Suele tener sub-eventos, sesiones, talleres o paneles que ocurren en horarios específicos y lugares definidos.  
-- **Gestión de Inventario y Aforo:** El control de capacidad es crítico. Debes separar el aforo total del evento del aforo de espacios específicos (salas/salones).  
-- **Modelos de Precios y Entradas (Ticketing):** La relación entre "Entrada" (TickGet) y "Servicio" es vital. Un tipo de entrada (ej. "VIP") debe desbloquear acceso a servicios específicos (ej. "Acceso al buffet", "Acceso a zona premium").  
-- **Trazabilidad de la Transacción:** Cada registro o compra debe estar vinculado a un usuario, un método de pago y un estado de validación (para el control de ingreso).  
+- **Gestión de Inventario y Aforo:** El control de capacidad es muy importante. Debes separar el aforo total del evento con el aforo de espacios específicos en salas y salones.  
+- **Modelos de Precios y Entradas (Ticketing):** La relación entre "Entrada" y "Servicio" es vital. Un tipo de entrada por ejemplo "VIP" debe desbloquear acceso a servicios específicos como por ejemplo acceso al bufet.  
+- **Trazabilidad de la Transacción:** Cada registro o compra debe estar vinculado a un usuario, un método de pago y un estado de validación asi se tiene un control.
 
 Se puede estructurar con entidades principales como:
 
 1. **Gestión de usuarios y roles:**  Un usuarios con ID, nombre, correo, tipo de usuario o rol  y demás datos relacionados de este y también está el rol que cumple en el evento con permisos especiales.  
 2. **Definición de evento:** se necesita saber los datos del evento, así mismo del espacio y las sesiones   
 3. **Entrada y servicios:**  debe tener información o datos como tipo de entrada, el servicio  y la entrada a este servicio.  
-4. Transacciones y asistencias el cual cuenta con datos como entradas vendidas y el registro de ingreso y todos los datos específicos necesarios para cada uno.
+4. **Transacciones y asistencias:** cuenta con datos como entradas vendidas y el registro de ingreso y todos los datos específicos necesarios para cada uno.
 
    	
 **(Datos Curiosos)**
 - Gamificación: Uso de puntos, retos o tablas de clasificación para incentivar la interacción en la plataforma.  
 - Uso de salas paralelas en sesiones pequeñas   
-- Informes y métricas: Datos detallados sobre tiempos de conexión, sesiones más populares y nivel de participación. 
+- Informes y métricas: Datos detallados sobre tiempos de conexión, sesiones más populares y nivel de participación.
+- Sensores IoT son dispositivos físicos que detectan, miden y transmiten datos del mundo real hacia internet de forma automática y en tiempo real.
+- Conteo por QR / NFC: método de registro y control de flujo basado en la acción del usuario, quien utiliza su teléfono móvil para interactuar con un código o un chip físico.
+- Dashboard: interfaz gráfica que organiza, simplifica y muestra visualmente los datos recolectados por los sensores o los sistemas QR/NFC.
 
 # **Segunda seccion: Tendencias actuales en dichos conceptos:**
 

@@ -15,7 +15,7 @@ Bases de datos relacional que permite la gestion de eventos.
 **Modelos de Precios y Entradas (Ticketing):** La relación entre "Entrada" (TickGet) y "Servicio" es vital. Un tipo de entrada (ej. "VIP") debe desbloquear acceso a servicios específicos (ej. "Acceso al buffet", "Acceso a zona premium").  
 **Trazabilidad de la Transacción:** Cada registro o compra debe estar vinculado a un usuario, un método de pago y un estado de validación (para el control de ingreso).  
 
-# Se puede estructurar con entidades principales como:
+**Se puede estructurar con entidades principales como:**
 1. **Gestión de usuarios y roles:**  Un usuarios con ID, nombre, correo, tipo de usuario o rol  y demás datos relacionados de este y también está el rol que cumple en el evento con permisos especiales.  
 2. **Definición de evento:** se necesita saber los datos del evento, así mismo del espacio y las sesiones   
 3. **Entrada y servicios:**  debe tener información o datos como tipo de entrada, el servicio  y la entrada a este servicio.  

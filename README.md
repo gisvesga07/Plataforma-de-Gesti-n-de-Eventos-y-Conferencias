@@ -8,8 +8,7 @@ Bases de datos relacional que permite la gestion de eventos.
 - Johan Stiveen Dueñas López  2243599
 
 
-# **Primera seccion**
-1. Conceptos importantes y relevantes en la temática:
+# **Primera seccion: Conceptos importantes y relevantes en la temática:**
      
 **Jerarquía de Eventos y Sesiones:** Un evento no es un ente aislado. Suele tener sub-eventos, sesiones, talleres o paneles que ocurren en horarios específicos y lugares definidos.  
 **Gestión de Inventario y Aforo:** El control de capacidad es crítico. Debes separar el aforo total del evento del aforo de espacios específicos (salas/salones).  
@@ -28,8 +27,7 @@ Bases de datos relacional que permite la gestion de eventos.
 - Uso de salas paralelas en sesiones pequeñas   
 - Informes y métricas: Datos detallados sobre tiempos de conexión, sesiones más populares y nivel de participación. 
 
-# Segunda seccion
-2. Tendencias actuales en dichos conceptos:
+# **Segunda seccion: Tendencias actuales en dichos conceptos:**
 
 - **Hibridación y multi-ubicación:** eventos con componentes presenciales y virtuales, sesiones paralelas transmitidas en vivo y espacios virtuales simultáneos  
 - **Gestión de aforo en tiempo real:** sensores IoT, conteo por QR/NFC y dashboards que actualizan capacidad por sala y alertas automáticas para límites y redistribución de público.  
@@ -41,8 +39,7 @@ Bases de datos relacional que permite la gestion de eventos.
 - **Automatización operativa:** workflows para check-in/checkout, reembolsos, asignación automática de asientos, y orquestación de notificaciones (email/SMS/push) según estados de compra o cambios de agenda.  
 - **Privacidad y cumplimiento reforzado:** anonimización, consentimiento granular para marketing, retención mínima de datos y cumplimiento regional (GDPR, LOPD/leyes locales).
 
-#Tercera seccion
-3. Herramientas en el mercado
+# **Tercera seccion: Herramientas en el mercado**
 
 1. **Tripleseat:** Es una plataforma que usualmente es utilizada para la gestión de eventos y CRM  es frecuentemente usada por los restaurantes, hoteles y centros de reuniones para manejar eficientemente como es el desarrollo y ciclo de vida de un evento.  
    - RM de contactos y leads (SmartLeads): captura automática de clientes potenciales desde formularios web y los integra a una base de datos de contactos.  

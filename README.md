@@ -33,26 +33,28 @@ Se puede estructurar con entidades principales como:
 
 # **Segunda seccion: Tendencias actuales en dichos conceptos:**
 
-- **Hibridación y multi-ubicación:** eventos con componentes presenciales y virtuales, sesiones paralelas transmitidas en vivo y espacios virtuales simultáneos  
-- **Gestión de aforo en tiempo real:** sensores IoT, conteo por QR/NFC y dashboards que actualizan capacidad por sala y alertas automáticas para límites y redistribución de público.  
-- **Ticketing dinámico y precios flexibles:** precios por demanda, early-bird, códigos promocionales personalizados, upsell automático de servicios (paquetes VIP, workshops), y segmentación por perfil del usuario.  
-- **Transacciones seguras y flujo de verificación:** tokenización de tarjetas (PCI compliant), pago en un click, comprobantes electrónicos, estados de validación en tiempo real y conciliación automática con pasarelas.  
-- **Experiencia de usuario y gestión de roles más integrada:** SSO/OAuth, paneles según rol (organizador, expositor, staff), permisos más finos y auditoría de acciones por rol.  
-- **Gamificación avanzada ligada a monetización:** puntos, retos, recompensas canjeables por servicios o upgrades; leaderboard en tiempo real y métricas de engagement integradas al CRM.  
-- **Integraciones y APIs abiertas:** ecosistema de integraciones (streaming, CRM, marketing automation, control de acceso) con webhooks y contratos API para sincronización de eventos, ventas y asistentes.  
-- **Automatización operativa:** workflows para check-in/checkout, reembolsos, asignación automática de asientos, y orquestación de notificaciones (email/SMS/push) según estados de compra o cambios de agenda.  
-- **Privacidad y cumplimiento reforzado:** anonimización, consentimiento granular para marketing, retención mínima de datos y cumplimiento regional (GDPR, LOPD/leyes locales).
+- Hibridación y multi-ubicación: Integración de componentes presenciales y virtuales con transmisiones en vivo y espacios simultáneos.
+- Control de aforo en tiempo real: Monitoreo exacto de la capacidad mediante IoT y códigos QR/NFC, apoyado en dashboards y alertas automáticas.
+- Ticketing dinámico: Precios ajustables por demanda, promociones, ventas adicionales automáticas (upsell) y segmentación de usuarios.
+- Transacciones seguras: Pagos rápidos y tokenizados, con validación instantánea y conciliación automática de los comprobantes.
+- Gestión de roles y UX: Accesos unificados (SSO), paneles adaptados a cada perfil (staff, organizador), permisos detallados y auditoría de acciones.
+- Gamificación y monetización: Sistema de puntos y recompensas canjeables diseñados para incentivar la interacción, con métricas vinculadas al CRM.
+- Integraciones y APIs abiertas: Conexión ágil mediante webhooks con plataformas externas (CRM, streaming, accesos) para sincronizar datos al instante.
+- Automatización operativa: Flujos de trabajo automáticos para check-in/out, asignación de asientos, reembolsos y notificaciones (email, SMS, push).
+- Privacidad y cumplimiento normativo: Protección de la información, gestión de consentimientos de marketing y apego estricto a leyes de protección de datos (ej. GDPR).
 
 # **Tercera seccion: Herramientas en el mercado**
 
-1. **Tripleseat:** Es una plataforma que usualmente es utilizada para la gestión de eventos y CRM  es frecuentemente usada por los restaurantes, hoteles y centros de reuniones para manejar eficientemente como es el desarrollo y ciclo de vida de un evento.  
-   - RM de contactos y leads (SmartLeads): captura automática de clientes potenciales desde formularios web y los integra a una base de datos de contactos.  
-   - Calendario centralizado de reservas: muestra eventos filtrables por sede, sala o estado (tentativo, confirmado, cancelado), lo que implica una entidad Evento con estado y relación N:1 con Sala/Espacio.  
-   - Documentos y contratos: propuestas, contratos y BEOs (Banquet Event Orders) generados dinámicamente y almacenados en línea, vinculados al evento.  
-   - Pagos: procesamiento de depósitos y pagos, con recordatorios automáticos — sugiere entidad Pago/Factura ligada a Evento y Cliente.  
-2. **Momentus Technologies:** Es una solución de la EBMS (Event Business Management System) lo que proporciona un mayor alcance para todo por eso usualmente es usado por los centros de convenciones de gran magnitud, estadios y arenas. Esto se logra ya que el proceso es más robusto y multi-módulo a diferencia del Tripleseat.  
-   - CRM y reservas de espacios: gestión de información de clientes y reservas de salas/recintos, con vista de calendario para identificar huecos y optimizar la ocupación.  
-   - Registro de asistentes y gestión de exhibiciones: propio de ferias/convenciones, con entidades adicionales como Asistente, Stand/Exhibición, Expositor.  
-   - Módulo financiero: facturación y pagos integrados a nivel empresarial (muchos clientes empiezan solo con el módulo de eventos y luego añaden el financiero, lo que muestra que el modelo de datos está diseñado en módulos desacoplables).  
-   - Reportes y analítica en tiempo real: sobre uso de espacios, ingresos y rendimiento.  
-   - Sitios web y portal: para inscripciones y pagos en línea de asistentes.
+**Tripleseat:**
+Plataforma de gestión de eventos y CRM orientada a restaurantes, hoteles y centros de reuniones para controlar el ciclo de vida de un evento. Sus funciones principales incluyen:
+CRM y Leads: Captura automática de clientes potenciales (SmartLeads) vinculados a una base de datos central.
+Calendario centralizado: Visualización de reservas filtrada por sede, sala y estado (tentativo, confirmado, cancelado).
+Documentos y contratos: Generación dinámica y almacenamiento en línea de propuestas, contratos y órdenes de eventos (BEOs).
+Gestión de pagos: Procesamiento de depósitos y cobros con recordatorios automáticos.
+
+**Momentus Technologies:**
+Sistema EBMS multi-módulo y robusto, diseñado para recintos de gran magnitud como estadios y centros de convenciones. Sus características clave abarcan:
+CRM y reserva de espacios: Gestión de clientes y calendarios enfocados en optimizar la ocupación de las salas.
+Asistentes y exhibiciones: Herramientas para el registro de usuarios, expositores y stands en ferias o convenciones.
+Módulo financiero empresarial: Facturación y pagos avanzados mediante un modelo de datos por módulos desacoplables.
+Analítica y portales web: Reportes en tiempo real sobre ingresos y uso de espacios, complementado con sitios web para la inscripción y pago de asistentes.

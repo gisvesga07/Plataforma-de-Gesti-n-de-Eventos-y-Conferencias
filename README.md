@@ -6,6 +6,7 @@ Bases de datos relacional que permite la gestion de eventos.
 - Giselle Alejandra Vesga Romero   2243603
 - Juan Sebastián Herrera Suárez    2243569
 - Johan Stiveen Dueñas López  2243599
+- Jose David Tarazona Díaz 2243566
 
 
 # **Primera seccion: Conceptos importantes y relevantes en la temática:**

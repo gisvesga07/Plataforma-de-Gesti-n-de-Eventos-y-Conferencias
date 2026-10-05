@@ -1,4 +1,4 @@
-![Banner del proyecto](img/banner.png)
+!(img/banner.png)
 # Plataforma de Gestion de Eventos y Conferencias
 Bases de datos relacional que permite la gestion de eventos.
 

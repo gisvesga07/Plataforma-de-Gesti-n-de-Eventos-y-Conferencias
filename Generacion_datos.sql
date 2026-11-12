@@ -1,3 +1,4 @@
+
 /* ESPACIO (5 registros)*/
 INSERT INTO ESPACIO VALUES('ESP001', 'Auditorio Principal',    'Campus Central, Bucaramanga',           500);
 INSERT INTO ESPACIO VALUES('ESP002', 'Sala de Conferencias A', 'Edificio Tecnológico, Bucaramanga',     120);
